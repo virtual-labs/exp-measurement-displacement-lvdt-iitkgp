@@ -1,4 +1,3 @@
-## Aim of experiment
+﻿## Aim of the experiment
+ To measure the displacement using a linear variable differential transformer (LVDT).
 
-- One of the very useful practical and important separation technique in the chemical industry is membrane separation. A membrane is a thin barrier, placed between two phases or mediums, which allows one or more constituents to selectively pass from one medium to the other in the presence of an appropriate driving force while retaining the rest. This is why it is called a semipermeable membrane. The two phases between which transfer of the species occurs are not in direct contact.
-If separation occurs by a sieving mechanism then it can be of three types-Ultrafiltration, Microfiltration, or Nanofiltration depending on the range of membrane pore size. In the case of separating salt from brackish water the transport of the solvent occurs under the effect of a pressure difference. This is called Reverse Osmosis.

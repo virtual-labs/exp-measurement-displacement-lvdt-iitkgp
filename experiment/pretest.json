@@ -1,175 +1,54 @@
 {
-  "version": 2.0,
   "questions": [
     {
-      "question": "In concentration polarisation flux decline occurs due to",
-      "answers": {
-        "a": "Reaction between membrane and permeate stream",
-        "b": "Accumulation of solute molecules on the membrane surface",
-        "c": "High bulk concentration",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "question": "What does LVDT stand for?",
+      "options": [
+        "a) Linear Voltage Differential Transducer",
+        "b) Longitudinal Velocity Displacement Transducer",
+        "c) Linear Variable Differential Transformer",
+        "d) Low Voltage Digital Transducer"
+      ],
+      "answer": "c"
     },
     {
-      "question": "What happens to the membrane surface concentration as time progresses?",
-      "answers": {
-        "a": "Increases",
-        "b": "Decreases",
-        "c": "Increases and reaches a constant value",
-        "d": "Remains constant throughout"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "question": "The primary coil of an LVDT is excited with:",
+      "options": [
+        "a) Direct current (DC)",
+        "b) Alternating current (AC)",
+        "c) Pulsating current",
+        "d) High-frequency current"
+      ],
+      "answer": "b"
     },
     {
-      "question": "Which side of the membrane the osmotic pressure is higher?",
-      "answers": {
-        "a": "Solution side",
-        "b": "Solvent side",
-        "c": "Equal both sides",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "question": "LVDT is primarily used for measuring:",
+      "options": [
+        "a) Temperature",
+        "b) Pressure",
+        "c) Displacement",
+        "d) Velocity"
+      ],
+      "answer": "c"
     },
     {
-      "question": "The effective pressure driving force for solvent flow from solution side to solvent side is(∆P is external pressure difference given)",
-      "answers": {
-        "a": "∆P-∆∏",
-        "b": "∆∏",
-        "c": "∆P",
-        "d": "∆P+∆∏"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "question": "How many secondary coils are present in an LVDT?",
+      "options": [
+        "a) 1",
+        "b) 2",
+        "c) 3",
+        "d) 4"
+      ],
+      "answer": "b"
     },
     {
-      "question": "The pore size range for a reverse osmosis membrane is",
-      "answers": {
-        "a": "0.1-1 nm",
-        "b": "10 nm",
-        "c": "1000 nm",
-        "d": "100 µm"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "A UF membrane has a pore-size range of",
-      "answers": {
-        "a": "1-100 A",
-        "b": "1-100 µm",
-        "c": "1-100 nm",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": " A Nanofiltration membrane has a pore-size range of",
-      "answers": {
-        "a": "1nm",
-        "b": "10nm",
-        "c": "1µm",
-        "d": "100µm"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "The concentration of NaCl in sea water is",
-      "answers": {
-        "a": "0.5 molal",
-        "b": "0.5 molar",
-        "c": "5 molar",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is effect of increasing pressure on flux?",
-      "answers": {
-        "a": "Increases",
-        "b": "Decreases",
-        "c": "Remains constant",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "When bulk concentration increases what happens to flux?",
-      "answers": {
-        "a": "Increases",
-        "b": "Decreases",
-        "c": "constant",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "question": "The output of an LVDT is in the form of:",
+      "options": [
+        "a) Digital signal",
+        "b) Analog signal",
+        "c) Binary code",
+        "d) Frequency modulated signal"
+      ],
+      "answer": "b"
     }
   ]
 }
