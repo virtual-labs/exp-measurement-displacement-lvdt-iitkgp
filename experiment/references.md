@@ -1,8 +1,9 @@
 ## References
+#### Books
+- Baker.R.W., Membrane Technology and Applications, 2nd ed., Wiley VCH, 2004.
+- Noble, R.D., and S.A. Stern, Membrane Separations Technology, Elsevier, Amsterdam, 1995.
+- Ohiya, H. Et al., 'Design of reverse osmosis process', Desalination, 63(1987) 119-133.
+- Porter, M.C., 'Membrane filtration' in Handbook of separation Process Technology, 2nd ed., P.A.Schweitzer (Ed.), Mcgraw-Hill, New York, 1997.
+- Ho, W.S.W., and K.K.Sirkar, Membrane Handbook, Chapman and Hall, New York, 1992.
 
-1. Techkor, Inc., “An Introduction to Linear Variable Differential Transformer”, http://www.globalspec.com/Goto/GotoWebPage?gotoUrl=/ACTTechkor/ref/TB31/TechkorTB31.html&gotoType=TechArticle&VID=245&CategoryID=1136 (current December 2002).
-
-2. Raghavendra, G. N., & Girisha, H. R. (2018). Transducers and Instrumentation: A Laboratory Manual for Engineering Students. Springer.
-
-3. https://www.allaboutcircuits.com/technical-articles/introduction-to-linear-variable-differential-transformer-lvdt/
 

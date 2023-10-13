@@ -1,0 +1,304 @@
+.img-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+.pipe {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 50px;
+					
+		
+}
+#drop{
+		top: 51%;
+		left: 50%;
+		z-index: 20;
+		height:0%;
+	
+}
+#pipe2{
+		bottom: 47%;
+		left: 27%;
+		z-index: 30;
+		height: 0%;
+	
+}
+
+
+.indi {
+	div {
+  width: 10px;
+  height: 34px;
+  background: red;
+  position: relative;
+  animation: mymove 55s ;
+}
+
+@keyframes mymove {
+  from {bottom: 20px;}
+  to {top: 10px;}
+}	
+		
+}
+
+
+
+.basin {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 144px;
+	height: 0px;
+	/* clip-path: inset(32% -17% 0% -12% round 37%);	*/
+clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 97% 98%, 90% 101%, 32% 100%, 23% 96%, 25% 28%);
+		
+}
+#basin{
+		bottom: 20%;
+		left: 44.5%;
+		z-index: 40;
+		opacity: 0.5;
+	
+}
+
+.tank {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 24.5%;
+	height: 33%;
+	opacity: 0.5;
+	/*clip-path: inset(10% 20% 30% 40% round 25%);	*/
+/*clip-path: polygon(29% 48%, 12% 11%, 94% 3%, 94% 97%, 84% 100%, 58% 110%, 22% 98%, 23% 37%);	*/
+clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 96%, 23% 28%);
+}
+#tank{
+		bottom: 58%;
+		left: 37.3%;
+		z-index: 10;
+	
+}
+
+.gas {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 222px;
+	height: 0%;
+	transform: rotate(180deg);
+				
+		
+}
+#gas{
+		top: 20.5%;
+    left: 42%;
+    z-index: 10;
+	
+}
+
+
+
+/*-----------------------------for vulv button to run program------------------------*/
+
+.button {
+  /*background-image: url(images/cancel.png); */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color:rgb(0 0 0 / 0%);
+  /* put the height and width of your image here */
+  height: 59px;
+  width: 75px;
+  border: none;
+  position: absolute;
+  top: 29.5%;
+  left: 21%;
+  z-index: 100;
+}
+
+button span {
+  display: none;
+}
+
+
+.gbutton {
+  /*background-image: url(images/cancel.png); */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color:rgb(0 0 0 / 0%);
+  /* put the height and width of your image here */
+  height: 59px;
+  width: 75px;
+  border: none;
+  position: absolute;
+  top: 44.4%;
+  left: 22.5%;
+  z-index: 100;
+}
+
+button span {
+  display: none;
+}
+
+
+#rectangle {
+  width: 0.5%;
+    height: 3%;
+    background-color: red;
+    position: absolute;
+    bottom: 77.4%;
+    left: 28.5%;
+}
+
+.meter-indicator {
+  width: 2%;
+  height: 0.5%;
+  background-color: black;
+  position: absolute;
+  top: 46%;
+  left: 34.5%;
+  
+}
+
+
+/*-----------------------------for normal movement of tick------------------------*/
+.movetick{
+	animation:moveIt 2.5s ease-in-out infinite;	
+}
+
+@keyframes moveIt {
+  0%, 100% {
+    transform: rotate(0deg);
+	transform-origin:0% 0%;
+  }
+  20% {
+    transform: rotate(-45deg);
+	transform-origin:0% 0%;
+  }
+}
+/*---------------------------------------------------------------------*/
+
+
+
+/*.meter-move{
+transform-origin: center bottom;
+  transform: rotate(0deg) translateY(-60%);
+  transition: transform 0.5s;
+}*/
+
+
+/*-----------------------------for drop------------------------*/
+.dflow{
+	animation:dflow 34s linear forwards;	
+}
+
+@keyframes dflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 23%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------for dropstop------------------------*/
+.dflowstop{
+	animation:dflowstop 14s linear forwards;	
+}
+
+@keyframes dflowstop {
+  from {height: 23%;}/*background-color:white}*/
+  to   {height: 0%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------for open gas------------------------*/
+.uflow{
+	animation:uflow 4s linear forwards;	
+}
+
+@keyframes uflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 22%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------for indicator------------------------*/
+.iflow{
+	animation:iflow 4s linear forwards;	
+}
+
+@keyframes iflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 7%;}/*background-color:#0db4fd}*/
+}
+
+
+
+/*-------------------------------for basin--------------------------------------*/
+
+.bflow{
+	animation:bflow 14s linear forwards;	
+}
+
+@keyframes bflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 40%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+
+/*-----------------------------for tank------------------------*/
+.cflow{
+	animation:cflow 14s linear forwards;	
+}
+
+@keyframes cflow {
+  from {height: 33%;}/*background-color:white}*/
+  to   {height: 2%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------for empty tank water------------------------*/
+.cflowstop{
+	animation:cflowstop 14s linear forwards;	
+}
+
+@keyframes cflowstop {
+  from {height: 2%;}/*background-color:white}*/
+  to   {height: 0%;}/*background-color:#0db4fd}*/
+}
+
+
+
+/*-----------------------------for gas release------------------------*/
+.gflow{
+	animation:gflow 12s linear forwards;	
+}
+
+@keyframes gflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 12%;}/*background-color:#0db4fd}*/
+}
+
+
+/*-----------------------------for gas stop------------------------*/
+.gflowstop{
+	animation:gflowstop 15s linear forwards;	
+}
+
+@keyframes gflowstop {
+  from {height: 12%;}/*background-color:white}*/
+  to   {height: 0%;}/*background-color:#0db4fd}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

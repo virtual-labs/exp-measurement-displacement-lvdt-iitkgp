@@ -1,54 +1,175 @@
 {
+  "version": 2.0,
   "questions": [
     {
-      "question": "The sensitivity of an LVDT is:",
-      "options": [
-        "a) The change in output voltage per unit displacement",
-        "b) The voltage at the null position",
-        "c) The range of displacement the LVDT can measure",
-        "d) The linearity of the LVDT output"
-      ],
-      "answer": "a"
+      "question": "What is effect of decreasing membrane resistance on flux?",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Constant",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     },
     {
-      "question": "The output of an LVDT is:",
-      "options": [
-        "a) A direct current (DC) signal",
-        "b) An alternating current (AC) signal",
-        "c) A digital signal",
-        "d) None of the above"
-      ],
-      "answer": "b"
+      "question": "Some methods to increase flux through the membrane?",
+      "answers": {
+        "a": "Backwashing of membrane",
+        "b": "Stirring in the feed compartment",
+        "c": "Increasing bulk concentration",
+        "d": "Both a and b"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     },
     {
-      "question": "The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, 1). find the maximum o/p voltage",
-      "options": [
-        "a) 1 V",
-        "b) 2V",
-        "c) 3V",
-        "d) 4V"
-      ],
-      "answer": "c"
+      "question": "The effect of concentration polarisation is least important in which of the following processes?",
+      "answers": {
+        "a": "Gas separation",
+        "b": "Haemodialysis",
+        "c": "Reverse Osmosis",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     },
     {
-      "question": "The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, 1). find the maximum o/p voltage once the core is shifted with 120mm from its null location:",
-      "options": [
-        "a) 2V",
-        "b) 2.2V",
-        "c) 2.4V",
-        "d) 2.6V"
-      ],
-      "answer": "c"
+      "question": "What is the explaination for your choice of answer in Q13 above?",
+      "answers": {
+        "a": "Diffusivity is low in gas phase",
+        "b": "Concentration boundary will not form",
+        "c": "Diffusivity is very high in gas phase",
+        "d": "Both b and c"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     },
     {
-      "question": "The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, find the position of core from middle once the o/p voltage is 2.5 V",
-      "options": [
-        "a) 100V",
-        "b) 125 V",
-        "c) 150V",
-        "d) 175V"
-      ],
-      "answer": "b"
+      "question": "If polarisation modulus in a Reverse Osmosis module is unity, the feed side mass transfer coefficient of the solute is",
+      "answers": {
+        "a": "Very large",
+        "b": "Very small",
+        "c": "Is equal to the diffusinal resistance of the membrane",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If reflection coefficient sigma is zero, an osmotic membrane is",
+      "answers": {
+        "a": "Fully permeable",
+        "b": "Impermeable",
+        "c": "Partially permeable to the solute",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the selectivity of separation change with the increasing membrane thickness?",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remains unchanged",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In membrane filtration, the solute molecules are carried to the membrane surface by",
+      "answers": {
+        "a": "Knudsen diffusion",
+        "b": "Fickian diffusion",
+        "c": "Convection",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How are the rejected solute molecules carried from membrane surface to the bulk?",
+      "answers": {
+        "a": "Convection",
+        "b": "Diffusive transport",
+        "c": "Knudsen diffusion",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "With increased concentration polarisation on a Reverse Osmosis membrane at a constant applied pressure difference, the solvent flux decreases. What happens to the solute flux?",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remains unchanged",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
