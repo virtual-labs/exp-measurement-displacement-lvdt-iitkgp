@@ -6,7 +6,7 @@
 
 <b>Discipline | <b> Mechanical Engineering 
 :--|:--|
-<b> Lab | <b> ** Metrology and Measurement Lab**
+<b> Lab | <b> **Metrology and Measurement Lab**
 <b> Experiment|     <b> **Measurement of Displacement using LVDT and Experiment 2**
 
 
