@@ -2,13 +2,16 @@
 
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant.png" alt="">          
+<img class="img-fluid"  src="./images/plant.png" alt=""><br>           
 </div>
 
 
 **Steps to perform the simuation**
 
+# **Procedure**
+
 In this experiment the maximum displacement that can be measured and given to LVDT core is : ±10 mm. i.e. 10 mm to the right or to the left from the mean position. Mean position is 10 mm.
+
 
 1. Switch ON the LVDT trainer by clicking on green 'Power' button.
 
@@ -28,7 +31,7 @@ display indicates -10 mm.
 8. Switch off the trainer. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table. 
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant_scth.png" alt="">          
+<img class="img-fluid"  src="./images/plant_scth.png" alt=""><br>           
 </div>
 
 
