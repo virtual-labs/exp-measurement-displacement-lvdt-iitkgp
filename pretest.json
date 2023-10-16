@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does LVDT stand for?",
+      "answers": {
+        "a": "Linear Voltage Differential Transducer",
+        "b": "Longitudinal Velocity Displacement Transducer",
+        "c": "Linear Variable Differential Transformer",
+        "d": "Low Voltage Digital Transducer"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The primary coil of an LVDT is excited with:",
+      "answers": {
+        "a": "Direct current (DC)",
+        "b": "Alternating current (AC)",
+        "c": "Pulsating current",
+        "d": "High-frequency current"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "LVDT is primarily used for measuring:",
+      "answers": {
+        "a": "Temperature",
+        "b": "Pressure",
+        "c": "Displacement",
+        "d": "Velocity"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many secondary coils are present in an LVDT? ",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The output of an LVDT is in the form of:",
+      "answers": {
+        "a": "Digital signal",
+        "b": "Analog signal",
+        "c": "Binary code",
+        "d": "Frequency modulated signal"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
