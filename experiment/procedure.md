@@ -8,7 +8,10 @@
 
 **Steps to perform the simuation**
 
+# **Procedure**
+
 In this experiment the maximum displacement that can be measured and given to LVDT core is : ±10 mm. i.e. 10 mm to the right or to the left from the mean position. Mean position is 10 mm.
+
 
 1. Switch ON the LVDT trainer by clicking on green 'Power' button.
 
