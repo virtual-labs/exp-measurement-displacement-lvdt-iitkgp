@@ -1,3 +1,3 @@
-## Aim of experiment
+## Aim of the experiment
+ To measure the displacement using a linear variable differential transformer (LVDT).
 
-- The fed-batch strategy is typically used in bio-industrial processes to reach a high cell density in the bioreactor. Mostly the feed solution is highly concentrated to avoid dilution of the bioreactor. Production of heterologous proteins by fed-batch cultures of recombinant microorganisms have been extensively studied.
