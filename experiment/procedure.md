@@ -28,7 +28,7 @@ display indicates -10 mm.
 
 7. Click on 'Plot' button. The 'Output Voltage (|E<sub>0</sub>|) vs. Core displacement (mm)' plot will be shown. Hover the cursor on the plot, one camera icon will be visible in the top right corner above the plot section. Click on that camera icon to download the plot.
 
-8. Switch off the trainer. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table. 
+8. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table. 
 
 <div align="center">
 <img class="img-fluid"  src="./images/plant_scth.png" alt=""><br>           
