@@ -2,46 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "During the course of fed-batch operation the volume of the broth continuously:",
+      "question": "What does LVDT stand for?",
       "answers": {
-        "a": "Increases",
-        "b": "Decreases",
-        "c": "Doesn’t undergo any change",
-        "d": "None of the above"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Arrange the growth processes in the order they occur during a fed-batch operation: (i) lag phase, (ii) death phase, (iii) deceleration phase, (iv) stationary phase, (v) exponential growth phase:",
-      "answers": {
-        "a": "(i), (ii), (iii), (iv), (v)",
-        "b": "(i), (iv), (iii), (ii), (v)",
-        "c": "(iii), (i), (iv), (v), (ii)",
-        "d": "(i), (v), (iii), (iv), (ii)"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Name the phase which is a period of adaptation of the cells to the new environment :",
-      "answers": {
-        "a": "Deceleration phase",
-        "b": "Stationary Phase",
-        "c": "Lag Phase",
-        "d": "Exponential Growth Phase"
+        "a": "Linear Voltage Differential Transducer",
+        "b": "Longitudinal Velocity Displacement Transducer",
+        "c": "Linear Variable Differential Transformer",
+        "d": "Low Voltage Digital Transducer"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -53,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What can result in starting of the Deceleration Phase during a fed-batch operation? (i) Substantial depletion of one or more essential nutrients. (ii)Accumulation of toxic by-products. ",
+      "question": "The primary coil of an LVDT is excited with:",
       "answers": {
-        "a": "Only (i) alone",
-        "b": "Only (ii) alone",
-        "c": "Both (i) and (ii)",
-        "d": "Neither (i) nor (ii)"
+        "a": "Direct current (DC)",
+        "b": "Alternating current (AC)",
+        "c": "Pulsating current",
+        "d": "High-frequency current"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -70,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which condition marks the beginning of stationary phase?",
+      "question": "LVDT is primarily used for measuring:",
       "answers": {
-        "a": "Growth rate of cells becomes negative",
-        "b": "Growth rate of cells becomes positive",
-        "c": "The net growth rate of cells becomes zero",
-        "d": "None of the above"
+        "a": "Temperature",
+        "b": "Pressure",
+        "c": "Displacement",
+        "d": "Velocity"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -84,6 +50,40 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many secondary coils are present in an LVDT? ",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The output of an LVDT is in the form of:",
+      "answers": {
+        "a": "Digital signal",
+        "b": "Analog signal",
+        "c": "Binary code",
+        "d": "Frequency modulated signal"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
