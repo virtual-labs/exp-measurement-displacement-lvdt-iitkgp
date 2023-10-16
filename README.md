@@ -22,7 +22,7 @@ Displacement measurement is an essential aspect of many engineering and scientif
 <b> Institute | <b>  **Indian Institute of Technology Kharagpur**
 <b> Email id|     <b>  **psundriyal@mech.iitkgp.ac.in**
 <b> Department |  **Department of Mechanical Engineering**
-<b>Webpage| <b> https://www.iitkgp.ac.in/department/ME/faculty/me-psundriyal](https://www.iitkgp.ac.in/department/ME/faculty/me-psundriyal)
+<b>Webpage| <b> [https://www.iitkgp.ac.in/department/ME/faculty/me-psundriyal](https://www.iitkgp.ac.in/department/ME/faculty/me-psundriyal)
 
 <b>Subject matter expertise | <b> **Dr. Siddharth Tamang**
 :--|:--|
