@@ -1,2 +1,1 @@
-## Measurement of Displacement using LVDT
- <!-- <img src="images/iitkgp.png" width="3%" /> -->
+## Feedbatch Fermentor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="3%" />

@@ -1,0 +1,4 @@
+get frames from gif video, 
+make transparent each png
+amke gif again
+https://ezgif.com/maker
