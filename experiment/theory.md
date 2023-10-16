@@ -30,8 +30,12 @@ In Case-3, when the core of the LVDT is shifted away from the null point in the 
 Eo = E<sub>S1</sub> - E<sub>S2</sub>  
 
 <div align="center">
-<img class="img-fluid"  src="./images/t3.png" alt=""><br> 
-</div>				
+<img class="img-fluid"  src="./images/t3.png" alt=""><br>           
+</div>
+
+
+
+				
 
 						
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>								
