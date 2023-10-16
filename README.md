@@ -6,7 +6,7 @@
 
 <b>Discipline | <b> Chemical Engineering
 :--|:--|
-<b> Lab | <b> **Chemical Process Dynamics Laboratory**
+<b> Lab | <b> **Chxxxtory**
 <b> Experiment|     <b> **Feedbatch Fermentor**
 
 
