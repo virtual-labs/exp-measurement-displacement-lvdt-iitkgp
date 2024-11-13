@@ -3,7 +3,9 @@
 
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant.png" alt=""><br>           
+<img class="img-fluid"  src="./images/plant.png" alt=""><br> 
+
+<b>Fig 1. LVDT Assembly</b>
 </div>
 
 
@@ -31,7 +33,9 @@ display indicates -10 mm.
 8. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table. 
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant_scth.png" alt=""><br>           
+<img class="img-fluid"  src="./images/plant_scth.png" alt=""><br> 
+
+<b>Fig 2. LVDT circuit diagram</b>
 </div>
 
       
