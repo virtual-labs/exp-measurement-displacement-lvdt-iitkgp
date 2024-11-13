@@ -272,7 +272,7 @@ xaxis: {
     linewidth: 2,
 	rangemode:'tozero',
     title: {
-      text: 'Core displacement(mm)',
+      text: 'Core displacement (mm)',
       font: {
         family: 'Times New Roman, monospace',
         size: 18,
@@ -294,7 +294,7 @@ xaxis: {
     linewidth: 2,
 	rangemode:'tozero',
     title: {
-      text: 'Output Voltage |E0|',
+      text: 'Output Voltage |E<sub>0</sub>|',
 	  
       font: {
         family: 'Times New Roman, monospace',
