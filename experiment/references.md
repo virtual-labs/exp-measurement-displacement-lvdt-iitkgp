@@ -1,8 +1,16 @@
 ## References
-#### Books and Links
-1. Techkor, Inc., “An Introduction to Linear Variable Differential Transformer”, http://www.globalspec.com/Goto/GotoWebPage?gotoUrl=/ACTTechkor/ref/TB31/TechkorTB31.html&gotoType=TechArticle&VID=245&CategoryID=1136 (current December 2002).
+#### Books
+
+1. Nyce, D. (2023). Understanding Position Sensors. CRC Press.
 
 2. Raghavendra, G. N., & Girisha, H. R. (2018). Transducers and Instrumentation: A Laboratory Manual for Engineering Students. Springer.
 
-3. https://www.allaboutcircuits.com/technical-articles/introduction-to-linear-variable-differential-transformer-lvdt/
+## Websites
 
+1.	https://www.ni.com/en/shop/data-acquisition/measuring-position-and-displacement-with-lvdts.html
+
+2.	https://www.allaboutcircuits.com/technical-articles/introduction-to-linear-variable-differential-transformer-lvdt/
+
+3.	https://www.te.com/en/products/sensors/position-sensors/resources/lvdt-terms-and-definitions.html
+
+4.	https://sensotronic.co.in/lvdt.htm
