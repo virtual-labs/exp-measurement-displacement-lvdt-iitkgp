@@ -184,10 +184,10 @@ document.getElementById('gatis').style.width = newgw + "%";
 	var count = math.divide(diff,0.7);
 	lsmm = math.round(math.divide(micromm,0.7));
 	
-	displacement = math.add(-10,count);
+	displacement = math.add(-10,count).toFixed(2);
 	console.log('D = '+ displacement);
 	
-	E = math.abs(math.multiply(displacement,20));///20mV/mm sensitivity
+	E = math.abs(math.multiply(displacement,20)).toFixed(2);///20mV/mm sensitivity
 	
 	document.getElementById('displacement').value = math.round(displacement);	
 	 
