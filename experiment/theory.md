@@ -3,7 +3,7 @@
  Displacement measurement plays a vital role in numerous engineering and scientific applications. One of the most widely employed transducers for measuring linear displacement is the Linear Variable Differential Transformer (LVDT). The LVDT is a passive inductive transducer that converts linear mechanical displacement into a corresponding electrical signal. Structurally, it consists of a primary coil and two secondary coils wound on a cylindrical hollow form, as illustrated in Fig. 1. A soft iron core, capable of moving freely within the hollow form alters the magnetic coupling between the primary and secondary windings. An alternating current (AC) excitation voltage is applied to the primary coil, which is centrally positioned between the two secondary coils. The secondary coils are connected in such a way that their induced voltages are in opposition (series opposition). The displacement to be measured is transmitted to the movable soft iron core through an attached mechanical arm. When the core is in its null or central position, the magnetic flux linking the two secondary coils is equal and opposite, resulting in zero net output voltage. However, when the core is displaced from the central position, the magnetic coupling becomes unbalanced, causing a differential voltage to be induced in the secondary coils. The magnitude of this output voltage is directly proportional to the extent of core displacement, while its phase (polarity) indicates the direction of movement. Thus, the LVDT provides a highly sensitive, accurate, and continuous electrical representation of linear displacement, with the core’s position determining the induced electromotive force (e.m.f.) in the secondary windings. Fig. 4 shows the image of a real LVDT.
 
 <div align="center">
-<img class="img-fluid"  src="./images/t1.png" alt=""> 
+<img style="width:80%"  src="./images/t1.png" alt=""> 
 
 <b>Fig. 1. LVDT Assembly</b>
 </div>
@@ -17,7 +17,7 @@ In Case-2, when the core of the LVDT is shifted left to the null point as shown 
 $$E_0 = E_{S1}– E_{S2} \tag{2}$$ 
 
 <div align="center">
-<img class="img-fluid"  src="./images/t2.png" alt="">
+<img style="width:80%"  src="./images/t2.png" alt="">
 
 <b>Fig. 2. Core is at left to null position</b>
 </div>
@@ -27,13 +27,13 @@ In Case-3, when the core of the LVDT is shifted right to the null point in the o
 $$E_0 = E_{S1}– E_{S2} \tag{3}$$  
 
 <div align="center">
-<img class="img-fluid"  src="./images/t3.png" alt="">
+<img style="width:80%"  src="./images/t3.png" alt="">
 
 <b>Fig. 3. Core is at right to null position</b>
 </div>
 
 <div align="center">
-<img class="img-fluid"  src="./images/t4.png" alt="">
+<img style="width:80%"  src="./images/t4.png" alt="">
 
 <b>Fig. 4. LVDT (Sensotronic System)</b>
 </div>
