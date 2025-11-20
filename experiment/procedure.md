@@ -15,9 +15,9 @@ In this experiment, the maximum displacement that can be applied to the LVDT cor
 
 <li> Set the micrometer to 10 mm (mean position). Rotate the thimble until the ‘0’ mark on the circular scale coincides with the ‘10 mm’ mark on the main scale. This can be done by clicking the left arrow sign on the 'Rotate Gauge' button.</li><br/> 
 
-<li> For positive core displacement (movement towards the left), click the left arrow sign on 'Rotate Gauge'.</li><br/>
+<li> For positive core displacement (movement towards the left), click the left arrow sign on 'Rotate Gauge'. Wait untill the 'Rotate Gauge' button gets enabled.</li><br/>
 
-<li> For negative core displacement (movement towards the right), click the right arrow sign on 'Rotate Gauge'.</li><br/>
+<li> For negative core displacement (movement towards the right), click the right arrow sign on 'Rotate Gauge'. Wait untill the 'Rotate Gauge' button gets enabled.</li><br/>
 
 <li> The Displacement (mm) display on the trainer will now read 0, indicating that the core is at its central position, where equal magnetic flux links both secondary coils.</li><br/>
 
