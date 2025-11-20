@@ -72,11 +72,23 @@ clearInterval(intervalrev);
 function rotategauge(){
 	
 	 interval = setInterval(cw,100);
+	 setTimeout(function() {
+  $('#rotateScrew').prop("disabled",false);
+}, 2000);
+	 
 }
 
 function rotategaugerev(){
 	
 	 intervalrev = setInterval(acw,100);
+	 setTimeout(function() {
+  $('#rotateScrew').prop("disabled",false);
+}, 2000);
+}
+
+///new addition after dxp review
+function disableB(){
+	$('#rotateScrew').prop("disabled",true);
 }
 
 ///incr the right position of gauge with 0.7. with one complete revolution circular scale moves 1 mm forward

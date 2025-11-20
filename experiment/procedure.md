@@ -1,42 +1,39 @@
 ## Procedure
 
-
-
-<div align="center">
-<img class="img-fluid"  src="./images/plant.png" alt=""><br> 
-
-<b>Fig 1. LVDT Assembly</b>
-</div>
-
-
 **Steps to perform the simuation**
 
-
-In this experiment the maximum displacement that can be measured and given to LVDT core is : ±10 mm. i.e. 10 mm to the right or to the left from the mean position. Mean position is 10 mm.
-
-
-1. Switch ON the LVDT trainer by clicking on green 'Power' button.
-
-2. Make micrometer to read 10 mm i.e. rotate thimble till 0 of the circular scale coincides with 10 of main scale. This can be done by clicking on plus sign on 'Rotate Gauge' button. (Ex:- for positive core displacement or to move the LVDT core towards left side click on plus sign on 'Rotate Gauge' button and similerly to move the core to right side click on minus sign on 'Rotate Gauge' button.)
-
-3. Display (Displacement (mm) box in trainer) will indicate 0. This is the position when core is at centre i.e equal flux linking to both the secondary.
-
-4. Click on 'Table' at the bottom of the page to see the observation table and click on 'Add to Table' button to fill the observation table. 
-
-5. Again click on plus sign of 'Rotate Gauge' button to display 2 mm displacement and repeat step 3 each time after +2 mm displacement change . Continue untill display indicates +10 mm. After taking observation of +10 mm displacement, come back to the mean position again (displacement in micrometer 10 mm or display will show 0 mm) by clicking on minus sign on 'Rotate Gauge' button. Click on 'Add to Table' button again to tabulate this 0 mm displacement.
-
-6. Now click on minus sign on 'Rotate Gauge' button to display -2 mm displacement, click on 'Add to Table' button to tabulate the data. Repeat step 3 each time after -2 mm displacement change . Continue untill
-display indicates -10 mm.
-
-7. Click on 'Plot' button. The 'Output Voltage (|E<sub>0</sub>|) vs. Core displacement (mm)' plot will be shown. Hover the cursor on the plot, one camera icon will be visible in the top right corner above the plot section. Click on that camera icon to download the plot.
-
-8. Click on 'Clear' button to erase the observation data and plot. Click on 'Table' button to hide the observation table. 
+In this experiment, the maximum displacement that can be applied to the LVDT core is ±10 mm, i.e., the core can move 10 mm to the right or 10 mm to the left from the mean (central) position. The mean position corresponds to 10 mm on the micrometer scale. Fig. 1 illustrates simulation interface for the displacement measurement by LVDT.
 
 <div align="center">
-<img class="img-fluid"  src="./images/plant_scth.png" alt=""><br> 
+<img class="img-fluid"  src="./images/proce.png" alt="">
 
-<b>Fig 2. LVDT circuit diagram</b>
+<b>Fig. 1. Simulation interface for the displacement measurement by LVDT</b>
 </div>
+
+<ol>
+<li> Power ON the LVDT by clicking the green 'Power' button.</li><br/>
+
+<li> Set the micrometer to 10 mm (mean position). Rotate the thimble until the ‘0’ mark on the circular scale coincides with the ‘10 mm’ mark on the main scale. This can be done by clicking the left arrow sign on the 'Rotate Gauge' button.</li><br/> 
+
+<li> For positive core displacement (movement towards the left), click the left arrow sign on 'Rotate Gauge'.</li><br/>
+
+<li> For negative core displacement (movement towards the right), click the right arrow sign on 'Rotate Gauge'.</li><br/>
+
+<li> The Displacement (mm) display on the trainer will now read 0, indicating that the core is at its central position, where equal magnetic flux links both secondary coils.</li><br/>
+
+<li> Click on the 'Table' button at the bottom of the page to view the observation table, then click 'Add to Table' to record the reading.</li><br/>
+
+<li> Click the left arrow sign on 'Rotate Gauge' to move the core in +2 mm increments. After each +2 mm movement, note the displayed displacement and click 'Add to Table' to record the value. Continue this process until the display shows +10 mm.</li><br/>
+
+<li> After reaching +10 mm, return the micrometer to the mean position (10 mm) by clicking the right arrow sign on 'Rotate Gauge'. When the display again shows 0 mm, click 'Add to Table' to record this value.</li><br/>
+
+<li> Now move the core in the negative direction by clicking the right arrow sign on 'Rotate Gauge' to obtain –2 mm displacement. Record the reading by clicking 'Add to Table'. Continue the same steps in –2 mm intervals until the display reaches –10 mm.</li><br/>
+
+<li> Once all readings are recorded, click the 'Plot' button. The graph 'Output Voltage (|E₀|) vs. Core Displacement (mm)' will be displayed. Hover the cursor over the plot; a camera icon will appear in the top-right corner. Click it to download the plot.</li><br/>
+
+<li> To reset, click the 'Clear' button to erase all data and the plot. Click 'Table' again to hide the observation table.</li><br/>
+</ol>
+
 
       
                             
