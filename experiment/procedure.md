@@ -2,7 +2,7 @@
 
 **Steps to perform the simuation**
 
-In this experiment, the maximum displacement that can be applied to the LVDT core is ±10 mm, i.e., the core can move 10 mm to the right or 10 mm to the left from the mean (central) position. The mean position corresponds to 10 mm on the micrometer scale. Fig. 1 illustrates simulation interface for the displacement measurement by LVDT.
+In this experiment, the maximum displacement that can be applied to the LVDT core is ±10 mm, i.e., the core can move 10 mm to the right or 10 mm to the left from the mean (central) position. The mean position corresponds to 10 mm on the micrometer scale. Fig. 1 illustrates simulation interface for the displacement measurement by LVDT. To follow the instructions on the simulation page, please click on the blue ‘Instructions’ tab.
 
 <div align="center">
 <img class="img-fluid"  src="./images/proce.png" alt="">
