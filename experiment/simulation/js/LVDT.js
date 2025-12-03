@@ -27,13 +27,13 @@ if (document.getElementById('poff').src.match("./images/poff.png")){
 	
 document.getElementById('poff').src = "./images/pon.png";
 $('#rotateScrew').prop("disabled",false);	
-	
+document.getElementById('displacement').style.color="red";	
 }	
 else if (document.getElementById('poff').src.match("./images/pon.png")){
 	
 document.getElementById('poff').src = "./images/poff.png";	
 $('#rotateScrew').prop("disabled", true);	
-	
+document.getElementById('displacement').style.color="black";		
 }	
 }
 
@@ -106,10 +106,16 @@ gwCount+=0.4;
 var newPos = math.add(csPos,posCount);
 var newgw = math.add(gw,gwCount);
 
+if(newPos<=15.5){
+
 document.getElementById('cirSc').style.right = newPos + "%";
 document. getElementById('seudobox').value = newPos;///grap the value of right position of circular scale
 
-document.getElementById('gatis').style.width = newgw + "%";	
+document.getElementById('gatis').style.width = newgw + "%";
+}
+else{
+	alert('The circular scale cannot be rotated beyond this point in the clockwise direction.');
+}	
 	
 }
 function cscalePosChngRev(){
@@ -120,10 +126,15 @@ gwCount-=0.8;
 var newPos = math.add(csPos,posCount);
 var newgw = math.add(gw,gwCount);
 
+if(newPos>=1.5){
 document.getElementById('cirSc').style.right = newPos + "%";
 document. getElementById('seudobox').value = newPos;///grap the value of right position of circular scale
 
-document.getElementById('gatis').style.width = newgw + "%";		
+document.getElementById('gatis').style.width = newgw + "%";	
+}
+else{
+	alert('The circular scale cannot be rotated beyond this point in the anticlockwise direction.');
+}	
 	
 }
 
