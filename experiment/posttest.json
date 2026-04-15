@@ -8,13 +8,7 @@
         "b": "The voltage at the null position",
         "c": "The range of displacement the LVDT can measure",
         "d": "The linearity of the LVDT output"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -25,12 +19,6 @@
         "b": "An alternating current (AC) signal",
         "c": "A digital signal",
         "d": "None of the above"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -43,12 +31,6 @@
         "c": "3 V",
         "d": "4 V"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -60,12 +42,6 @@
         "c": "2.4 V",
         "d": "2.6 V"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -76,12 +52,6 @@
         "b": "125 V",
         "c": "150 V",
         "d": "175 V"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"

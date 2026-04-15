@@ -9,12 +9,6 @@
         "c": "Linear Variable Differential Transformer",
         "d": "Low Voltage Digital Transducer"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -25,12 +19,6 @@
         "b": "Alternating current (AC)",
         "c": "Pulsating current",
         "d": "High-frequency current"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -43,12 +31,6 @@
         "c": "Displacement",
         "d": "Velocity"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -60,12 +42,6 @@
         "c": "3",
         "d": "4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -76,12 +52,6 @@
         "b": "Analog signal",
         "c": "Binary code",
         "d": "Frequency modulated signal"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
