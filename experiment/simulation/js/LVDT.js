@@ -126,13 +126,15 @@ gwCount-=0.8;
 var newPos = math.add(csPos,posCount);
 var newgw = math.add(gw,gwCount);
 
-if(newPos>=1.5){
+if(newPos>=1){
 document.getElementById('cirSc').style.right = newPos + "%";
 document. getElementById('seudobox').value = newPos;///grap the value of right position of circular scale
 
+
+
 document.getElementById('gatis').style.width = newgw + "%";	
 }
-else{
+else {
 	alert('The circular scale cannot be rotated beyond this point in the anticlockwise direction.');
 }	
 	
