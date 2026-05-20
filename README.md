@@ -13,4 +13,4 @@
 
 **System description**
 
-Displacement measurement is an essential aspect of many engineering and scientific applications. A common type of transducer that is utilized for the measurement of linear displacement is known as the linear variable displacement transformer (LVDT). The LVDT is calibrated using an external micrometer as the standard reference. The calibration is performed for both negative and positive displacements to account for the device's response in both directions
+Displacement measurement is an essential aspect of many engineering and scientific applications. A common type of transducer that is utilized for the measurement of linear displacement is known as the linear variable displacement transformer (LVDT). The LVDT is calibrated using an external micrometer as the standard reference. The calibration is performed for both negative and positive displacements to account for the device's response in both directions.
