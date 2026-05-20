@@ -1,0 +1,221 @@
+<!-- This HTML page and script files are developed by
+    Piyali Chattopadhyay
+    Project Scientist-Technical,
+    Virtual Labs IIT Kharagpur.-->
+
+<!DOCTYPE html>
+<html lang="en"><!--html tag start-->
+<head>
+    <title>Measurement of Displacement using LVDT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+   
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script  src="./js/LVDT.js">   </script>
+  
+
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js"></script>-->
+
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.2.1/math.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.2.1/math.min.js  "></script>
+ 
+ 
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+
+<link rel="stylesheet" href="./css/LVDT.css">
+
+	
+
+
+  <style>
+	
+	
+	canvas {	
+	max-width:100%;
+	}
+	
+	
+  </style>
+  
+  
+  
+</head>
+<body><!--body tag start-->
+    <div class="container p-3 my-3 text-primary text-center "><!--First Container under body tag start-->
+       
+        <hr>
+        <div class="row"><!--2nd row under 1st container start-->
+            
+            <div class="col-md-12"><!--2nd col under 2nd row start-->
+                <p class="h1"> <b>Simulation </b> </p>
+            </div><!--2nd col under 2nd row end-->
+           
+        </div><!--2nd row under 1st container end-->
+        <hr>
+       
+    </div><!--First Container under body tag end-->
+    
+   
+	
+    <div class="container p-3 my-5 text-left border"><!--3rd Container under body tag start-->
+      <div class="row"><!--First row under 3rd container start-->
+        <div class="col-md-1"></div><!--First col under 3rd container start& end-->
+        <div class="col-md-10"><!--2nd col under 3rd container start-->
+            <p class="text-center bg-success"> <a class="nav-link" data-bs-toggle="tab"  id="instcontrol" style="background-color:#128BD9"  ><span class=" h3 text-dark"> Instructions </span></a>
+              <div id="inst" style="display:none">
+			  <ol>
+<li> Power ON the LVDT by clicking the green 'Power' button.</li><br/>
+
+<li> Set the micrometer to 10 mm (mean position). Rotate the thimble until the ‘0’ mark on the circular scale coincides with the ‘10 mm’ mark on the main scale. This can be done by clicking the clockwise arrow sign on the 'Rotate Gauge' button.</li><br/> 
+
+<li> For positive core displacement (movement towards the left), click the clockwise arrow sign on 'Rotate Gauge'. Wait until the 'Rotate Gauge' button gets enabled.</li><br/>
+
+<li> For negative core displacement (movement towards the right), click the anticlockwise arrow sign on 'Rotate Gauge'. Wait until the 'Rotate Gauge' button gets enabled.</li><br/>
+
+<li> The Displacement (mm) display on the trainer will now read 0, indicating that the core is at its central position, where equal magnetic flux links both secondary coils.</li><br/>
+
+<li> Click on the 'Table' button at the bottom of the page to view the observation table, then click 'Add to Table' to record the reading.</li><br/>
+
+<li> Click the clockwise arrow sign on 'Rotate Gauge' to move the core in +2 mm increments. After each +2 mm movement, note the displayed displacement and click 'Add to Table' to record the value. Continue this process until the display shows +10 mm.</li><br/>
+
+<li> After reaching +10 mm, return the micrometer to the mean position (10 mm) by clicking the anticlockwise arrow sign on 'Rotate Gauge'. When the display again shows 0 mm, click 'Add to Table' to record this value.</li><br/>
+
+<li> Now move the core in the negative direction by clicking the anticlockwise arrow sign on 'Rotate Gauge' to obtain –2 mm displacement. Record the reading by clicking 'Add to Table'. Continue the same steps in –2 mm intervals until the display reaches –10 mm.</li><br/>
+
+<li> Once all readings are recorded, click the 'Plot' button. The graph 'Output Voltage (|E₀|) vs. Core Displacement (mm)' will be displayed. Hover the cursor over the plot; a camera icon will appear in the top-right corner. Click it to download the plot.</li><br/>
+
+<li> To reset, click the 'Clear' button to erase all data and the plot. Click 'Table' again to hide the observation table.</li><br/>
+</ol>
+					
+		   </div>
+            </p> 
+          </div><!--2nd col under 3rd container end-->
+		  
+        <div class="col-md-1"></div><!--3rd col under 3rd container start& end-->
+      </div><!--First row under 3rd container end-->
+    </div><!--3rd Container under body tag end-->
+	
+    <div class="container p-3 my-5 text-center border" id="canvas" ><!--Fourth container under body tag start-->
+	
+	<div class="row my-5 gy-2">
+	
+	<div class="col-md-12">
+	<input type="number" id="seudobox" value="0" style="visibility:hidden">
+	
+			<div   class="img-container">
+			
+			<img class="img-fluid" src="./images/plant.png">
+			
+			<img id="poff" src="./images/poff.png" onclick="power()">
+			
+			<img id="screw" src="./images/screw.png" >
+			<img id="lvcore" src="./images/core.png" >
+			
+			<img id="ratchet" src="./images/ratchet.png" >			
+			<div id ="gatis"></div>
+			<img id="cirSc" src="./images/cs6.png">
+			
+			<button type="button" id="rotateScrew"  class="btn btn-success " disabled=disable>
+		 <b   onclick="disableB();rotategauge();cscalePosChng();screw_widthincr();core_widthdecr();Math_model()" style="color:white">&circlearrowright;</b>&nbsp;Rotate Gauge&nbsp;<b   onclick="disableB();rotategaugerev();cscalePosChngRev();screw_widthdecr();core_widthincr();Math_model()" style="color:white">&circlearrowleft;</b>
+		</button>
+		
+			<input type="number" id="displacement" value="0" readonly=readonly>
+			
+			
+			</div>	
+			<button type="button"  class="btn btn-info " onclick="CreateTable()" >Add to Table</button>
+		<button type="button"   class="btn btn-success " onclick="plot()" >Plot</button>
+		<button type="button"   class="btn btn-danger " onclick="Refresh()" >Clear</button>
+	</div>
+	
+	<!--<button class="btn btn-success" onclick="Dw_Tester()">Simulate</button>-->
+	</div>
+	
+		
+	<div class="row"><!--- 2nd row under fourth container start--->		
+		
+			<div class="col-md-12 "><!--2nd col under 2nd row start -->	
+			
+			
+			<div><a class="nav-link" data-bs-toggle="tab"  id="myTables" style="background-color:#128BD9" ><span class=" h3 text-dark"> Table </span></a>
+			
+			<table id="obsTable" style="display:none;width:100%">			
+				
+				  <tr>
+					<th>Sl No.</th>
+					<th>Displacement Indicated by Micrometer (mm)</th> 
+					<th>Core displacement (mm)</th>
+					<th>Output voltage (|E<sub>0</sub> |)(mV)</th>
+				  </tr>
+				  
+			</table>
+			
+			</div>	
+				</div>				
+		
+	</div><!--- 2nd row under fourth container end--->	
+
+
+	 <div class="row justify-content-center"><!-----------------------graph T vs. w----------------------------------------->
+		
+	 
+			<div class="col-md-12">
+				
+				<div align="center" id="myPlot" style="width:100%;max-width:700px;padding-left:10%"></div>
+				
+				
+				
+			</div>
+			
+			
+		
+	</div>	
+
+	
+	
+          <!-- Code End here-->
+        </div><!--Fourth container under body tag end-->
+          
+      <!--</div>
+    </div>-->
+
+    <div class="container p-3 my-5 text-primary text-center border"><!--Last and fifth container under body tag start-->
+      <div class="row">
+        <footer>
+          <div class="row ce">
+            <div class="col-sm-12">
+              <p class="h5"><i> Copyright ©2022 <a href="http://vlabs.iitkgp.ac.in/vlt/">Virtual Labs IIT Kharagpur</a> </i><br><br>
+              <a href="../../license/index.html" target="_blank"> Licensing Terms </a>
+            </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+  </div><!--Last and fifth container under body tag end-->
+  
+  
+
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body><!--body tag end-->
+
+ 
+</html><!--html tag end-->

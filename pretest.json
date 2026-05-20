@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What does LVDT stand for?",
+      "answers": {
+        "a": "Linear Voltage Differential Transducer",
+        "b": "Longitudinal Velocity Displacement Transducer",
+        "c": "Linear Variable Differential Transformer",
+        "d": "Low Voltage Digital Transducer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The primary coil of an LVDT is excited with:",
+      "answers": {
+        "a": "Direct current (DC)",
+        "b": "Alternating current (AC)",
+        "c": "Pulsating current",
+        "d": "High-frequency current"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. LVDT is primarily used for measuring:",
+      "answers": {
+        "a": "Temperature",
+        "b": "Pressure",
+        "c": "Displacement",
+        "d": "Velocity"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. How many secondary coils are present in an LVDT? ",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The output of an LVDT is in the form of:",
+      "answers": {
+        "a": "Digital signal",
+        "b": "Analog signal",
+        "c": "Binary code",
+        "d": "Frequency modulated signal"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
