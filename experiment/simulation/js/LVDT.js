@@ -27,13 +27,13 @@ if (document.getElementById('poff').src.match("./images/poff.png")){
 	
 document.getElementById('poff').src = "./images/pon.png";
 $('#rotateScrew').prop("disabled",false);	
-	
+document.getElementById('displacement').style.color="red";	
 }	
 else if (document.getElementById('poff').src.match("./images/pon.png")){
 	
 document.getElementById('poff').src = "./images/poff.png";	
 $('#rotateScrew').prop("disabled", true);	
-	
+document.getElementById('displacement').style.color="black";		
 }	
 }
 
@@ -72,11 +72,23 @@ clearInterval(intervalrev);
 function rotategauge(){
 	
 	 interval = setInterval(cw,100);
+	 setTimeout(function() {
+  $('#rotateScrew').prop("disabled",false);
+}, 2000);
+	 
 }
 
 function rotategaugerev(){
 	
 	 intervalrev = setInterval(acw,100);
+	 setTimeout(function() {
+  $('#rotateScrew').prop("disabled",false);
+}, 2000);
+}
+
+///new addition after dxp review
+function disableB(){
+	$('#rotateScrew').prop("disabled",true);
 }
 
 ///incr the right position of gauge with 0.7. with one complete revolution circular scale moves 1 mm forward
@@ -94,10 +106,16 @@ gwCount+=0.4;
 var newPos = math.add(csPos,posCount);
 var newgw = math.add(gw,gwCount);
 
+if(newPos<=15.5){
+
 document.getElementById('cirSc').style.right = newPos + "%";
 document. getElementById('seudobox').value = newPos;///grap the value of right position of circular scale
 
-document.getElementById('gatis').style.width = newgw + "%";	
+document.getElementById('gatis').style.width = newgw + "%";
+}
+else{
+	alert('The circular scale cannot be rotated beyond this point in the clockwise direction.');
+}	
 	
 }
 function cscalePosChngRev(){
@@ -108,10 +126,17 @@ gwCount-=0.8;
 var newPos = math.add(csPos,posCount);
 var newgw = math.add(gw,gwCount);
 
+if(newPos>=1){
 document.getElementById('cirSc').style.right = newPos + "%";
 document. getElementById('seudobox').value = newPos;///grap the value of right position of circular scale
 
-document.getElementById('gatis').style.width = newgw + "%";		
+
+
+document.getElementById('gatis').style.width = newgw + "%";	
+}
+else {
+	alert('The circular scale cannot be rotated beyond this point in the anticlockwise direction.');
+}	
 	
 }
 
@@ -172,10 +197,10 @@ document.getElementById('gatis').style.width = newgw + "%";
 	var count = math.divide(diff,0.7);
 	lsmm = math.round(math.divide(micromm,0.7));
 	
-	displacement = math.add(-10,count);
+	displacement = math.add(-10,count).toFixed(2);
 	console.log('D = '+ displacement);
 	
-	E = math.abs(math.multiply(displacement,20));///20mV/mm sensitivity
+	E = math.abs(math.multiply(displacement,20)).toFixed(2);///20mV/mm sensitivity
 	
 	document.getElementById('displacement').value = math.round(displacement);	
 	 
@@ -272,7 +297,7 @@ xaxis: {
     linewidth: 2,
 	rangemode:'tozero',
     title: {
-      text: 'Core displacement(mm)',
+      text: 'Core displacement (mm)',
       font: {
         family: 'Times New Roman, monospace',
         size: 18,
@@ -294,7 +319,7 @@ xaxis: {
     linewidth: 2,
 	rangemode:'tozero',
     title: {
-      text: 'Output Voltage |E0|',
+      text: 'Output Voltage |E<sub>0</sub>|',
 	  
       font: {
         family: 'Times New Roman, monospace',

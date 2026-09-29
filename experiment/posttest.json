@@ -2,88 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Production of lactic acid by fermentation is a classic example of:",
+      "question": "1. The sensitivity of an LVDT is:",
       "answers": {
-        "a": "Non-growth associated products",
-        "b": "Growth associated products",
-        "c": "Mixed growth associated products",
+        "a": "The change in output voltage per unit displacement",
+        "b": "The voltage at the null position",
+        "c": "The range of displacement the LVDT can measure",
+        "d": "The linearity of the LVDT output"
+      },      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The output of an LVDT is:",
+      "answers": {
+        "a": "A direct current (DC) signal",
+        "b": "An alternating current (AC) signal",
+        "c": "A digital signal",
         "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, 1). find the maximum o/p voltage",
+      "answers": {
+        "a": "1 V",
+        "b": "2 V",
+        "c": "3 V",
+        "d": "4 V"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Non-growth associated products like penicillin are produced:",
+      "question": "4. The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, 1). find the maximum o/p voltage once the core is shifted with 120mm from its null location: ",
       "answers": {
-        "a": "When specific rate of product formation is proportional to the specific rate of growth",
-        "b": "During deceleration phase",
-        "c": "Just after the death phase when intracellular proteins are released into medium by the dead cells",
-        "d": "During stationary phase"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which of the following time profile is fundamentally incorrect and shouldn’t be observed during the course of experiment:",
-      "answers": {
-        "a": "Volume of fed-batch increases continuously",
-        "b": "Product concentration increases with decreasing slope",
-        "c": "Specific growth rate increases continuously",
-        "d": "Substrate concentration decreases with time"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "2 V",
+        "b": "2.2 V",
+        "c": "2.4 V",
+        "d": "2.6 V"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "During the formation of growth associated products, the rate of substrate consumption depends upon:",
+      "question": "5. The stroke length of an LVDT is ±150mm & generates 20mV/mm of resolution. So, find the position of core from middle once the o/p voltage is 2.5 V",
       "answers": {
-        "a": "Cell maintenance only",
-        "b": "Cell maintenance + product formation",
-        "c": "Product formation + biomass production",
-        "d": "Sum of cell maintenance, product formation and biomass production"
+        "a": "100 V",
+        "b": "125 V",
+        "c": "150 V",
+        "d": "175 V"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "In a single fed-batch operation:",
-      "answers": {
-        "a": "After fermentation has reached a stage, some culture is removed from vessel and replaced by fresh medium",
-        "b": "Volume decreases and specific growth rate increases",
-        "c": "The growth medium is added during the process and no culture is removed till the end",
-        "d": "None of these"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
